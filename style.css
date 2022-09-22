@@ -35,6 +35,11 @@ main {
     height: 80vh;
     background-color: aliceblue;
     display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    margin: auto;
 }
 
 .gameboard {
@@ -61,7 +66,7 @@ main {
 
 .box i {
     margin: auto;
-    font-size: 8rem;
+    font-size: calc(min(45vw, 80vh)/3*0.8);
 }
 
 
